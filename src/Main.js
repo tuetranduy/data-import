@@ -8,6 +8,8 @@ import TextField from '@mui/material/TextField';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 
+
+
 export default function Main() {
 
     return (
@@ -43,9 +45,62 @@ export default function Main() {
                     </Typography>
                 </Grid>
                 <Grid item xs={14}>
-                    <TextField id="standard-basic" label="Standard" variant="standard" />
-                    <Button variant="raised" component="span">
-                        Upload
+                    <TextField id="upload-data" variant="standard" sx={{ display: "contents" }} />
+                    <Button variant="outlined" component="label" sx={{ marginLeft: "5px" }}>
+                        ADD
+                        <input hidden accept="image/*" multiple type="file" />
+                    </Button>
+                </Grid>
+
+                <Grid item xs={2}>
+                    <Typography>
+                        Apply Configuration
+                    </Typography>
+                </Grid>
+                <Grid item xs={14}>
+                    <TextField id="upload-data" variant="standard" sx={{ display: "contents" }} />
+                    <Button variant="outlined" component="label" sx={{ marginLeft: "5px" }}>
+                        ADD
+                        <input hidden accept="image/*" multiple type="file" />
+                    </Button>
+                </Grid>
+
+                <Grid item xs={2}>
+                    <Typography>
+                        Choose Worksheet
+                    </Typography>
+                </Grid>
+                <Grid item xs={14}>
+                    <TextField id="upload-data" variant="standard" sx={{ display: "contents" }} />
+                    <Button variant="outlined" component="label" sx={{ marginLeft: "5px" }}>
+                        ADD
+                        <input hidden accept="image/*" multiple type="file" />
+                    </Button>
+                </Grid>
+
+                <Grid item xs={2}>
+                    <Typography>
+                        Choose header row
+                    </Typography>
+                </Grid>
+                <Grid item xs={14}>
+                    <TextField id="upload-data" variant="standard" sx={{ display: "contents" }} />
+                    <Button variant="outlined" component="label" sx={{ marginLeft: "5px" }}>
+                        ADD
+                        <input hidden accept="image/*" multiple type="file" />
+                    </Button>
+                </Grid>
+
+                <Grid item xs={2}>
+                    <Typography>
+                        Select columns
+                    </Typography>
+                </Grid>
+                <Grid item xs={14}>
+                    <TextField id="upload-data" variant="standard" sx={{ display: "contents" }} />
+                    <Button variant="outlined" component="label" sx={{ marginLeft: "5px" }}>
+                        ADD
+                        <input hidden accept="image/*" multiple type="file" />
                     </Button>
                 </Grid>
             </Grid>
