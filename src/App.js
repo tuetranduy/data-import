@@ -1,12 +1,12 @@
 import './App.css';
 import { Button } from '@mui/material';
-import ResponsiveDrawer from './ReponsiveDrawer';
+import Navigation from './Navigation';
 
 function App() {
   return (
     <div className="App">
       <Button variant="contained">Hello World</Button>
-      <ResponsiveDrawer />
+      <Navigation />
     </div>
   );
 }
